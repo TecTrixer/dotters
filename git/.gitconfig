@@ -1,0 +1,13 @@
+[init]
+defaultBranch = main
+
+[gpg]
+format = "ssh"
+
+[commit]
+gpgsign = true
+
+[user]
+name = "TecTrixer"
+email = "tonihoevedes@gmail.com"
+signingkey = "/home/constantin/.ssh/id_ed25519"
