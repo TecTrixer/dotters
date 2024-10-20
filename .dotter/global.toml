@@ -4,3 +4,6 @@
 "kitty/kitty.conf" = "~/.config/kitty/kitty.conf"
 "git/.gitconfig" = "~/.gitconfig"
 "paru/paru.conf" = "~/.config/paru/paru.conf"
+
+[hyprland.files]
+"hyprland/hyprland.conf" = "~/.config/hyprland/hyprland.conf"
