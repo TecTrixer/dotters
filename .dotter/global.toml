@@ -6,4 +6,13 @@
 "paru/paru.conf" = "~/.config/paru/paru.conf"
 
 [hyprland.files]
-"hyprland/hyprland.conf" = "~/.config/hyprland/hyprland.conf"
+"hyprland/hyprland.conf" = "~/.config/hypr/hyprland.conf"
+"hyprland/hyprland-portals.conf" = "~/.config/xdg-desktop-portal/hyprland-portals.conf"
+"hyprland/dunstrc" = "~/.config/dunst/dunstrc"
+"hyprland/rofi.rasi" = "~/.config/rofi/config.rasi"
+"hyprland/hyprlock.conf" = "~/.config/hypr/hyprlock.conf"
+"hyprland/wpaperd.toml" = "~/.config/wpaperd/config.toml"
+"hyprland/waybar" = "~/.config/waybar/config"
+"hyprland/waybar.css" = "~/.config/waybar/style.css"
+# does not work because it needs to be root
+# "hyprland/sddm.conf" = "/etc/sddm.conf.d/sddm.conf"

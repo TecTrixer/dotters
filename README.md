@@ -27,6 +27,7 @@
 - zoxide: `paru zoxide`, modern cd
 - bat: `paru bat`, modern cat
 - croc: `paru croc`, copy files securely
+- jq: `paru jq`, pare json
 
 ### Applications
 - brave: `paru brave-bin`, browser
@@ -37,6 +38,7 @@
 - kitty: `paru kitty`, terminal
 - spotify: `paru spotify-launcher`, music service
 - discord: `paru discord`, communication
+- slack: `paru slack-wayland`, communication
 
 ### Dev Environments
 - rust: `paru rustup` -> `rustup default stable`, programming language
@@ -52,4 +54,19 @@
   - add kernel settings: add `options nvidia_drm modeset=1 fbdev=1` into `/etc/modprobe.d/nvidia.conf`
   - rebuild the initramfs: `sudo dracut --hostonly /boot/initramfs-linux.img --force`
   - add hardware support: `paru libva-nvidia-driver`
+- gtk nordic theme: `paru nordic-theme`
+- xdg desktop portal: `paru xdg-desktop-portal-hyperland`
+- auth agent: `paru hyprpolkitagent`
+- add qt5: `paru qt5-wayland`
+- add qt6: `paru qt6-wayland`
+- add notifications: `paru dunst`
+- add sddm theme: `paru sddm-sugar-dark`, add `[Theme]\nCurrent=sugar-dark` into `/etc/sddm.conf.d/sddm.conf`
+- install rofi: `paru rofi-wayland`
+- install calc: `paru rofi-calc-git`
+- install clipboard: `paru wl-clipboard`, `paru clipse`
+- install power menu: `paru rofi-power-menu` (TODO: recreate own version of this with hyprlock)
+- install hyprlock: `paru hyprlock` (TODO: configure it)
+- background image: `paru wpaperd`
+- waybar: `paru waybar` 
+- icons + font: `paru ttf-firacode-nerd`
   

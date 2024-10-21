@@ -1,0 +1,17 @@
+{
+    "layer": "top",
+    "modules-left": ["hyprland/workspaces"],
+    "modules-center": ["hyprland/window"],
+    "modules-right": ["tray", "clock"],
+	"hyprland/workspaces": {
+		"all-outputs": true,
+	},
+	"tray": {
+	    "icon-size": 21,
+	    "spacing": 10
+	},
+	"clock": {
+		"interval": 5,
+		"format": "{:%H:%M:%S}",
+	}
+}
