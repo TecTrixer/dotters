@@ -42,6 +42,7 @@
 
 ### Dev Environments
 - rust: `paru rustup` -> `rustup default stable`, programming language
+- typst: `paru typst`, `paru tinymist-bin`, `paru typstyle`
 
 ## Hyprland
 
