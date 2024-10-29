@@ -70,4 +70,5 @@
 - background image: `paru wpaperd`
 - waybar: `paru waybar` 
 - icons + font: `paru ttf-firacode-nerd`
+- blue-light-filter: `paru hyprshade`
   

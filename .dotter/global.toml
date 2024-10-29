@@ -1,6 +1,7 @@
 [shell.files]
 "helix/config.toml" = "~/.config/helix/config.toml"
 "helix/languages.toml" = "~/.config/helix/languages.toml"
+"helix/gruvbox_transparent.toml" = "~/.config/helix/themes/gruvbox_transparent.toml"
 "fish/config.fish" = "~/.config/fish/config.fish"
 "kitty/kitty.conf" = "~/.config/kitty/kitty.conf"
 "git/.gitconfig" = "~/.gitconfig"
@@ -15,5 +16,6 @@
 "hyprland/wpaperd.toml" = "~/.config/wpaperd/config.toml"
 "hyprland/waybar" = "~/.config/waybar/config"
 "hyprland/waybar.css" = "~/.config/waybar/style.css"
+"hyprland/hyprshade.toml" = "~/.config/hypr/hyprshade.toml"
 # does not work because it needs to be root
 # "hyprland/sddm.conf" = "/etc/sddm.conf.d/sddm.conf"

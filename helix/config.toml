@@ -1,4 +1,4 @@
-theme = "gruvbox_dark_hard"
+theme = "gruvbox_transparent"
 
 [keys.normal]
 X = "extend_line_above"
