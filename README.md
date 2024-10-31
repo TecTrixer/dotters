@@ -43,6 +43,7 @@
 ### Dev Environments
 - rust: `paru rustup` -> `rustup default stable`, programming language
 - typst: `paru typst`, `paru tinymist-bin`, `paru typstyle`, `paru zathura`, `paru zathura-pdf-mupdf`
+- python: `paru uv`, `paru python-lsp-server`, `paru python-lsp-ruff`
 
 ## Hyprland
 
