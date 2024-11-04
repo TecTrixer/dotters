@@ -72,4 +72,5 @@
 - waybar: `paru waybar` 
 - icons + font: `paru ttf-firacode-nerd`
 - blue-light-filter: `paru hyprshade`
+- backups: `paru timeshift` (needs `paru xorg-xhost` for the gui), then configure in the gui
   
