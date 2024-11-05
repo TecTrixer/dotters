@@ -46,6 +46,7 @@
 - python: `paru uv`, `paru python-lsp-server`, `paru python-lsp-ruff`
 - docker: `paru docker`, `paru docker-buildx`, `paru docker-compose`, `sudo systemctl enable docker.socket`, `sudo useradd -aG docker <username>` -> reboot
 - node: `paru nvm` / `paru fisher` -> `fisher install jorgebucaran/nvm.fish`,  `nvm install lts` -> `nvm use lts`, `paru pnpm`
+- webdev language servers: `pnpm i -g @tailwindcss/language-server`, `pnpm i -g typescript`, `pnpm i -g @astrojs/language-server`, `pnpm i -g vscode-langservers-extracted`, `pnpm install -g typescript-language-server`
 
 ## Hyprland
 
