@@ -44,6 +44,7 @@
 - rust: `paru rustup` -> `rustup default stable` -> `rustup component add rust-analyzer`, programming language
 - typst: `paru typst`, `paru tinymist-bin`, `paru typstyle`, `paru zathura`, `paru zathura-pdf-mupdf`
 - python: `paru uv`, `paru python-lsp-server`, `paru python-lsp-ruff`
+- docker: `paru docker`, `paru docker-buildx`, `paru docker-compose`, `sudo systemctl enable docker.socket`, `sudo useradd -aG docker <username>` -> reboot
 
 ## Hyprland
 
