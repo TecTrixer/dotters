@@ -10,3 +10,6 @@ setenv EDITOR helix
 
 # Setup zoxide
 zoxide init fish | source
+
+# Add path for binaries installed by cargo
+fish_add_path $HOME/.cargo/bin
