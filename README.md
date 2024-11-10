@@ -28,6 +28,9 @@
 - bat: `paru bat`, modern cat
 - croc: `paru croc`, copy files securely
 - jq: `paru jq`, pare json
+- just: `paru just`, better make
+- delta: `paru git-delta`, better git diff
+- kondo: `paru kondo`, clean build artifacts
 
 ### Applications
 - brave: `paru brave-bin`, browser
@@ -39,6 +42,7 @@
 - spotify: `paru spotify-launcher`, music service
 - discord: `paru discord`, communication
 - slack: `paru slack-wayland`, communication
+- signal: `paru signal-desktop`, communication
 
 ### Dev Environments
 - rust: `paru rustup` -> `rustup default stable` -> `rustup component add rust-analyzer`, programming language
@@ -77,3 +81,7 @@
 - blue-light-filter: `paru hyprshade`
 - backups: `paru timeshift` (needs `paru xorg-xhost` for the gui), then configure in the gui
   
+## Competitive programming setup
+
+- create user owned directory `/etc/cp` and clone `git@github.com:TecTrixer/cp-template.git` into it
+- clone comp helper into tmp directory from `git@github.com:TecTrixer/comp-helper.git` and install using `cargo install --path .`

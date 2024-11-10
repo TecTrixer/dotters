@@ -11,3 +11,11 @@ gpgsign = true
 name = "TecTrixer"
 email = "tonihoevedes@gmail.com"
 signingkey = "/home/constantin/.ssh/id_ed25519"
+
+[core]
+	pager = delta
+[delta]
+	side-by-side = true
+	line-numbers = false
+	file-style = omit
+	hunk-header-style = omit

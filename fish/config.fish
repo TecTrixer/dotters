@@ -17,3 +17,9 @@ fish_add_path $HOME/.cargo/bin
 # Add path for binaries installed by pnpm
 setenv PNPM_HOME $HOME/.local/share/pnpm
 fish_add_path $PNPM_HOME
+
+# Use competitive programming template
+source /etc/cp/config.fish
+
+# Use vi key bindings
+fish_vi_key_bindings
