@@ -11,6 +11,8 @@ q = ":buffer-close"
 soft-wrap.enable = true
 bufferline = "multiple"
 jump-label-alphabet = "tnseriaoplfuwydhc,x.q;z/"
+end-of-line-diagnostics = "hint"
+inline-diagnostics.cursor-line = "error"
 
 [editor.cursor-shape]
 insert = "bar"

@@ -28,3 +28,8 @@ language-servers = [ "typescript-language-server", "tailwindcss-ls" ]
 [[language]]
 name = "tsx"
 language-servers = [ "typescript-language-server", "tailwindcss-ls" ]
+
+[[language]]
+name = "markdown"
+formatter = { command = 'prettier', args = ["--parser", "markdown"] }
+auto-format = true
