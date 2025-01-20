@@ -6,7 +6,6 @@
 - Pick GNOME Desktop
 - Install
 
-
 - Git clone the dotfiles repository (this one)
 - do initial setup
 - select dotfiles with `local.toml`
@@ -17,10 +16,12 @@
 ## Packages
 
 ### Initial Setup
+
 - paru: `yay paru-bin`, package manager
 - dotter: `paru dotter-rs-bin`, dotfiles manager
 
 ### Shell
+
 - helix: `paru helix`, editor
 - fish: `paru fish`, shell
 - starship: `paru starship`, shell prompt
@@ -33,6 +34,7 @@
 - kondo: `paru kondo`, clean build artifacts
 
 ### Applications
+
 - brave: `paru brave-bin`, browser
   - go to settings -> sync -> start using sync and join the sync chain
   - enable sync all to use the same settings (might take some time to update)
@@ -43,13 +45,15 @@
 - discord: `paru discord`, communication
 - slack: `paru slack-wayland`, communication
 - signal: `paru signal-desktop`, communication
+- calibre: `paru calibre`, ebook management and reader
 
 ### Dev Environments
+
 - rust: `paru rustup` -> `rustup default stable` -> `rustup component add rust-analyzer`, programming language
 - typst: `paru typst`, `paru tinymist-bin`, `paru typstyle`, `paru zathura`, `paru zathura-pdf-mupdf`
 - python: `paru uv`, `paru python-lsp-server`, `paru python-lsp-ruff`
 - docker: `paru docker`, `paru docker-buildx`, `paru docker-compose`, `sudo systemctl enable docker.socket`, `sudo useradd -aG docker <username>` -> reboot
-- node: `paru nvm` / `paru fisher` -> `fisher install jorgebucaran/nvm.fish`,  `nvm install lts` -> `nvm use lts`, `paru pnpm`
+- node: `paru nvm` / `paru fisher` -> `fisher install jorgebucaran/nvm.fish`, `nvm install lts` -> `nvm use lts`, `paru pnpm`
 - webdev language servers: `pnpm i -g @tailwindcss/language-server`, `pnpm i -g typescript`, `pnpm i -g @astrojs/language-server`, `pnpm i -g vscode-langservers-extracted`, `pnpm install -g typescript-language-server`, `pnpm i -g prettier` (don't forget the config for astro: https://docs.astro.build/en/editor-setup/#prettier)
 
 ## Hyprland
@@ -76,12 +80,12 @@
 - install power menu: `paru rofi-power-menu` (TODO: recreate own version of this with hyprlock)
 - install hyprlock: `paru hyprlock` (TODO: configure it)
 - background image: `paru wpaperd`
-- waybar: `paru waybar` 
+- waybar: `paru waybar`
 - icons + font: `paru ttf-firacode-nerd`
 - blue-light-filter: `paru hyprshade`
 - backups: `paru timeshift` (needs `paru xorg-xhost` for the gui), then configure in the gui
 - hyprshot: `paru hyprshot` (screenshot tool)
-  
+
 ## Competitive programming setup
 
 - create user owned directory `/etc/cp` and clone `git@github.com:TecTrixer/cp-template.git` into it
