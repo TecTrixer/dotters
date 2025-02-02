@@ -4,7 +4,7 @@
     "modules-center": ["hyprland/window"],
     "modules-right": ["tray", "clock"],
 	"hyprland/workspaces": {
-		"all-outputs": true,
+		"all-outputs": false,
 	},
 	"tray": {
 	    "icon-size": 21,
