@@ -46,6 +46,7 @@
 - slack: `paru slack-wayland`, communication
 - signal: `paru signal-desktop`, communication
 - calibre: `paru calibre`, ebook management and reader
+- vlc: `paru vlc`, video player
 
 ### Dev Environments
 
