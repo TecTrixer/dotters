@@ -17,5 +17,6 @@
 "hyprland/waybar" = "~/.config/waybar/config"
 "hyprland/waybar.css" = "~/.config/waybar/style.css"
 "hyprland/hyprshade.toml" = "~/.config/hypr/hyprshade.toml"
+"hyprland/key_layout" = "~/.config/xkb/symbols/us-german"
 # does not work because it needs to be root
 # "hyprland/sddm.conf" = "/etc/sddm.conf.d/sddm.conf"
