@@ -18,5 +18,6 @@
 "hyprland/waybar.css" = "~/.config/waybar/style.css"
 "hyprland/hyprshade.toml" = "~/.config/hypr/hyprshade.toml"
 "hyprland/key_layout" = "~/.config/xkb/symbols/us-german"
+"hyprland/clipse.json" = "~/.config/clipse/config.json"
 # does not work because it needs to be root
 # "hyprland/sddm.conf" = "/etc/sddm.conf.d/sddm.conf"
