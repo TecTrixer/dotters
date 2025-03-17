@@ -32,6 +32,9 @@
 - just: `paru just`, better make
 - delta: `paru git-delta`, better git diff
 - kondo: `paru kondo`, clean build artifacts
+- lakshmi: `uv tool install lakshmi`, financial portfolio tracker
+- hledger: `paru hledger`, double entry ledger system
+- csvlens: `paru csvlens`, cli csv viewer
 
 ### Applications
 

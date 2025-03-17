@@ -24,6 +24,9 @@ source /etc/cp/config.fish
 # Use vi key bindings
 fish_vi_key_bindings
 
+# Add path for binaries installed by uv
+fish_add_path $HOME/.local/bin
+
 # SSH AGENT shenanigans
 
 ## Make sure `AddKeysToAgent yes` is inside ssh config for automatic key adding
