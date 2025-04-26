@@ -8,6 +8,10 @@ args = ["--stdio"]
 config = {typescript = {tsdk = "/home/constantin/.local/share/pnpm/global/5/node_modules/typescript/lib"}, environment = "node"}
 
 [[language]]
+name = "python"
+language-servers = [ { name = "ruff", except-features = [ "hover" ] }, "pylsp" ]
+
+[[language]]
 name = "astro"
 auto-format = true
 language-servers = [ "astro-ls", "tailwindcss-ls" ]
