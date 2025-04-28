@@ -3,6 +3,8 @@ theme = "gruvbox_transparent"
 [keys.normal]
 X = "extend_line_above"
 G = "goto_file_end"
+W = "move_next_sub_word_start"
+B = "move_prev_sub_word_start"
 
 [keys.normal.space]
 q = ":buffer-close"
