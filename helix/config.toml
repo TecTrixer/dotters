@@ -9,6 +9,12 @@ B = "move_prev_sub_word_start"
 [keys.normal.space]
 q = ":buffer-close"
 
+[keys.select]
+C-down = "shrink_selection"
+C-up = "expand_selection"
+C-left = "select_prev_sibling"
+C-right = "select_next_sibling"
+
 [editor]
 soft-wrap.enable = true
 bufferline = "multiple"
