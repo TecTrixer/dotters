@@ -35,6 +35,7 @@
 - lakshmi: `uv tool install lakshmi`, financial portfolio tracker
 - hledger: `paru hledger`, double entry ledger system
 - csvlens: `paru csvlens`, cli csv viewer
+- yazi: `paru yazi`, cli file viewer
 
 ### Applications
 

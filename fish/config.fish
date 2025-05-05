@@ -74,3 +74,14 @@ function ssh_agent_is_started -d "check if ssh agent is already started"
 end
 
 fish_ssh_agent
+
+# yazi config
+
+function y
+    set tmp (mktemp -t "yazi-cwd.XXXXXX")
+    yazi $argv --cwd-file="$tmp"
+    if set cwd (command cat -- "$tmp"); and [ -n "$cwd" ]; and [ "$cwd" != "$PWD" ]
+        builtin cd -- "$cwd"
+    end
+    rm -f -- "$tmp"
+end
