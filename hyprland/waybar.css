@@ -1,10 +1,46 @@
 * {
-    border: none;
-    border-radius: 0px;
-    font-family: Nerd Font, sans-serif;
-    font-size: 18px;
-    min-height: 0;
+  border: none;
+  border-radius: 0px;
+  font-family: Nerd Font, sans-serif;
+  font-size: 18px;
+  min-height: 0;
 }
+
+#workspaces {
+  color: #eaeaea;
+}
+
+#workspaces button {
+  border-bottom: 3px solid rgba(0, 0, 0, 0.0);
+}
+
 #workspaces button.active {
-  color: @green;
+  color: #edbf69;
+  border-bottom: 3px solid #edbf69;
+}
+
+#custom-gpu {
+  margin-left: 5px;
+  color: #d66508;
+}
+
+#cpu {
+  margin: 5px;
+  margin-right: 10px;
+  color: #edbf69;
+}
+
+#disk {
+  margin: 5px;
+  margin-right: 10px;
+  color: #ce2958;
+}
+
+#clock {
+  margin: 5px;
+  padding-left: 4px;
+  padding-right: 12px;
+  background-color: #edbf69;
+  border-radius: 15px;
+  color: #444444;
 }
