@@ -1,0 +1,5 @@
+[flags]
+enable_cache_memory = true
+
+[styles]
+theme = "gruvbox"

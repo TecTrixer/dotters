@@ -1,0 +1,58 @@
+// General
+default_shell "fish"
+pane_frames false
+theme "gruvbox-dark"
+scrollback_editor "/opt/homebrew/bin/hx"
+show_startup_tips false
+default_mode "locked"
+
+// Layout
+default_layout "default"
+
+// Keybinds
+keybinds clear-defaults=true {
+	normal {
+        bind "q" { Quit; }
+        bind "d" { Detach; }
+	}
+	shared {
+		bind "Alt h" { MoveFocus "Left"; }
+        bind "Alt l" { MoveFocus "Right"; }
+        bind "Alt j" { MoveFocus "Down"; }
+        bind "Alt k" { MoveFocus "Up"; }
+        bind "Alt =" "Alt +" { Resize "Increase"; }
+        bind "Alt -" { Resize "Decrease"; }
+	}
+    locked {
+        bind "Super l" { SwitchToMode "normal"; }
+    }
+    shared_except "locked" {
+        bind "Esc" { SwitchToMode "locked"; }
+        bind "Tab" { GoToNextTab; }
+        bind "Shift Tab" { GoToPreviousTab; }
+    }
+    shared_except "locked" "pane" {
+    	bind "p" { SwitchToMode "pane"; }
+    }
+    pane {
+    	bind "p" { SwitchToMode "normal"; }
+        bind "n" { NewPane; SwitchToMode "Normal"; }
+        bind "d" { NewPane "Down"; SwitchToMode "Normal"; }
+        bind "r" { NewPane "Right"; SwitchToMode "Normal"; }
+        bind "f" { ToggleFocusFullscreen; SwitchToMode "Normal"; }
+        bind "e" { TogglePaneEmbedOrFloating; SwitchToMode "Normal"; }
+        bind "i" { TogglePanePinned; SwitchToMode "Normal"; }
+        bind "x" { CloseFocus; SwitchToMode "Normal"; }
+    }
+    shared_except "locked" "tab" {
+    	bind "t" { SwitchToMode "tab"; }
+    }
+    tab {
+        bind "t" { SwitchToMode "normal"; }
+        bind "n" { NewTab; SwitchToMode "locked"; }
+        bind "b" { BreakPane; SwitchToMode "Normal"; }
+        bind "x" { CloseTab; SwitchToMode "normal"; }
+    }
+}
+
+
