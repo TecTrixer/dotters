@@ -16,15 +16,15 @@ keybinds clear-defaults=true {
         bind "d" { Detach; }
 	}
 	shared {
-		bind "Alt h" { MoveFocus "Left"; }
-        bind "Alt l" { MoveFocus "Right"; }
-        bind "Alt j" { MoveFocus "Down"; }
-        bind "Alt k" { MoveFocus "Up"; }
-        bind "Alt =" "Alt +" { Resize "Increase"; }
-        bind "Alt -" { Resize "Decrease"; }
+		bind "Alt h" "Ctrl Left" { MoveFocus "Left"; }
+        bind "Alt l" "Ctrl Right"{ MoveFocus "Right"; }
+        bind "Alt j" "Ctrl Down"{ MoveFocus "Down"; }
+        bind "Alt k" "Ctrl Up"{ MoveFocus "Up"; }
+        bind "Alt =" "Ctrl b" { Resize "Increase"; }
+        bind "Alt -" "Ctrl s"{ Resize "Decrease"; }
 	}
     locked {
-        bind "Super l" { SwitchToMode "normal"; }
+        bind "Super l" "Ctrl z" { SwitchToMode "normal"; }
     }
     shared_except "locked" {
         bind "Esc" { SwitchToMode "locked"; }
