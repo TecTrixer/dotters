@@ -21,6 +21,8 @@ bufferline = "multiple"
 jump-label-alphabet = "tnseriaoplfuwydhc,x.q;z/"
 end-of-line-diagnostics = "hint"
 inline-diagnostics.cursor-line = "error"
+indent-guides.render = true
+lsp.display-progress-messages = true
 
 [editor.cursor-shape]
 insert = "bar"
