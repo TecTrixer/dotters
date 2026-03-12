@@ -8,6 +8,7 @@
 "paru/paru.conf" = "~/.config/paru/paru.conf"
 "zellij/config.kdl" = "~/.config/zellij/config.kdl"
 "zellij/layouts/default.kdl" = "~/.config/zellij/layouts/default.kdl"
+"zellij/layouts/split.kdl" = "~/.config/zellij/layouts/split.kdl"
 "bottom/bottom.toml" = "~/.config/bottom/bottom.toml"
 
 [hyprland.files]
