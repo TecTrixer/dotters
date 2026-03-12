@@ -19,3 +19,6 @@ signingkey = "/home/constantin/.ssh/id_ed25519"
 	line-numbers = false
 	file-style = omit
 	hunk-header-style = omit
+
+[alias]
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%ar) %C(bold blue)<%an>%Creset' --abbrev-commit --all
