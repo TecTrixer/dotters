@@ -8,6 +8,10 @@ set fish_greeting
 alias hx helix
 setenv EDITOR helix
 
+# zellij
+alias s 'zellij --layout split' # split
+alias a 'zellij a' # attach
+
 # Setup zoxide
 zoxide init fish | source
 
