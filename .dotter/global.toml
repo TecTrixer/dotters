@@ -10,6 +10,7 @@
 "zellij/layouts/default.kdl" = "~/.config/zellij/layouts/default.kdl"
 "zellij/layouts/split.kdl" = "~/.config/zellij/layouts/split.kdl"
 "bottom/bottom.toml" = "~/.config/bottom/bottom.toml"
+"ghostty/config.ghostty" = "~/.config/ghostty/config.ghostty"
 
 [hyprland.files]
 "hyprland/hyprland.conf" = "~/.config/hypr/hyprland.conf"
