@@ -8,6 +8,7 @@ B = "move_prev_sub_word_start"
 
 [keys.normal.space]
 q = ":buffer-close"
+A = ":toggle auto-format"
 
 [keys.select]
 C-down = "shrink_selection"
