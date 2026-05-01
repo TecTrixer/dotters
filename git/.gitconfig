@@ -22,3 +22,6 @@ signingkey = "/home/constantin/.ssh/id_ed25519"
 
 [alias]
 	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%ar) %C(bold blue)<%an>%Creset' --abbrev-commit --all
+
+[url "git@github.com:"]
+    insteadOf = https://github.com/

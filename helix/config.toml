@@ -27,3 +27,13 @@ lsp.display-progress-messages = true
 
 [editor.cursor-shape]
 insert = "bar"
+
+# PR 13133
+[editor.inline-blame]
+show = "never"
+auto-fetch = true
+
+
+# PR 12369
+[icons.fs]
+enabled = true

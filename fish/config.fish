@@ -5,8 +5,9 @@ starship init fish | source
 set fish_greeting
 
 # Helix config
-alias hx helix
-setenv EDITOR helix
+# alias hx helix
+setenv HELIX_RUNTIME ~/dev/helix/runtime
+setenv EDITOR hx
 
 # zellij
 alias s 'zellij --layout split' # split
