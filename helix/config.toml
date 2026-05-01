@@ -5,6 +5,10 @@ X = "extend_line_above"
 G = "goto_file_end"
 W = "move_next_sub_word_start"
 B = "move_prev_sub_word_start"
+S-up = "@10<up>"
+S-down = "@10<down>"
+S-left = "@10<left>"
+S-right = "@10<right>"
 
 [keys.normal.space]
 q = ":buffer-close"
